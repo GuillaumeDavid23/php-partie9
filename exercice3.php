@@ -1,5 +1,5 @@
 <?php
-
+    setlocale(LC_TIME, ['fr', 'fra', 'fr_FR']);
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -11,8 +11,7 @@
 </head>
 <body>
     <?php
-        setlocale(LC_TIME, ['fr', 'fra', 'fr_FR']);
-        echo strftime('%A %d %B %Y %I:%M:%S'). '<br>';
+        echo strftime('%A %d %B %Y'). '<br>';
     ?>
 </body>
 </html>
